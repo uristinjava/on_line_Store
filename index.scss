@@ -121,12 +121,15 @@
             width: 360px;
             height: 260px;
 
+
             .link_promo {
                 text-decoration: none;
+
 
                 .img_promo {
                     position: absolute;
                     box-shadow: rgba(0, 0, 0, 0.8) inset;
+                    filter: brightness(70%);
                 }
 
                 .promo_text {
@@ -170,11 +173,7 @@
 
     .big_promo {
         width: 1140px;
-        height: 260px;
-
-        // background-image: url(img/item_bottom.svg);
-        // background-repeat: no-repeat;
-        // background-position: 100%;
+        height: 180px;
         margin-bottom: 96px;
 
         .link_promo {
@@ -183,6 +182,7 @@
 
         .img_promo {
             position: absolute;
+            filter: brightness(70%);
         }
 
         .promo_text {
@@ -196,8 +196,6 @@
             line-height: 19.2px;
             text-transform: uppercase;
 
-
-
             span {
                 text-transform: uppercase;
                 font-size: 24px;
@@ -210,6 +208,104 @@
 
 
     }
+
+    .text_fetured {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 48px;
+
+        .fetured {
+            color: #222222;
+            font-size: 30px;
+            line-height: 36px;
+            line-height: 100%;
+            margin-bottom: 6px;
+        }
+
+        .shop {
+            font-size: 14px;
+            line-height: 17px;
+            line-height: 100%;
+            color: #9F9F9F;
+        }
+    }
+
+    .item_box {
+        width: 1140px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .item {
+            width: 360px;
+            height: 581px;
+
+
+            .item_header {
+                color: #000000;
+                font-size: 13px;
+                line-height: 15.6px;
+                margin-top: 25px;
+                margin-left: 18px;
+            }
+
+            .item_text {
+                margin-top: 13px;
+                font-size: 14px;
+                line-height: 16.8px;
+                margin-left: 18px;
+            }
+
+            .item_price {
+                margin-top: 18px;
+                color: #F16D7F;
+                margin-left: 18px;
+
+
+            }
+
+        }
+
+
+    }
+
+    .bottom {
+        text-decoration: none;
+        margin-bottom: 95px;
+        margin-top: 49px;
+
+        .browse_bottom {
+            border: 3px solid #F16D7F;
+
+            .browse_text {
+                color: #F26376;
+                padding: 15px 35px;
+            }
+        }
+    }
+
+    // эффект наведения
+    .bottom:hover {
+        background-color: #F16D7F;
+
+        .browse_text {
+            color: #FFFFFF;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

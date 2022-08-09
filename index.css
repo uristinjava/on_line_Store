@@ -174,6 +174,8 @@
   position: absolute;
   -webkit-box-shadow: rgba(0, 0, 0, 0.8) inset;
           box-shadow: rgba(0, 0, 0, 0.8) inset;
+  -webkit-filter: brightness(70%);
+          filter: brightness(70%);
 }
 
 .conteiner_2 .up_promo .promo .link_promo .promo_text {
@@ -207,7 +209,7 @@
 
 .conteiner_2 .big_promo {
   width: 1140px;
-  height: 260px;
+  height: 180px;
   margin-bottom: 96px;
 }
 
@@ -217,6 +219,8 @@
 
 .conteiner_2 .big_promo .img_promo {
   position: absolute;
+  -webkit-filter: brightness(70%);
+          filter: brightness(70%);
 }
 
 .conteiner_2 .big_promo .promo_text {
@@ -236,5 +240,95 @@
   font-size: 24px;
   color: #F16D7F;
   line-height: 28.8px;
+}
+
+.conteiner_2 .text_fetured {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 48px;
+}
+
+.conteiner_2 .text_fetured .fetured {
+  color: #222222;
+  font-size: 30px;
+  line-height: 36px;
+  line-height: 100%;
+  margin-bottom: 6px;
+}
+
+.conteiner_2 .text_fetured .shop {
+  font-size: 14px;
+  line-height: 17px;
+  line-height: 100%;
+  color: #9F9F9F;
+}
+
+.conteiner_2 .item_box {
+  width: 1140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.conteiner_2 .item_box .item {
+  width: 360px;
+  height: 581px;
+}
+
+.conteiner_2 .item_box .item .item_header {
+  color: #000000;
+  font-size: 13px;
+  line-height: 15.6px;
+  margin-top: 25px;
+  margin-left: 18px;
+}
+
+.conteiner_2 .item_box .item .item_text {
+  margin-top: 13px;
+  font-size: 14px;
+  line-height: 16.8px;
+  margin-left: 18px;
+}
+
+.conteiner_2 .item_box .item .item_price {
+  margin-top: 18px;
+  color: #F16D7F;
+  margin-left: 18px;
+}
+
+.conteiner_2 .bottom {
+  text-decoration: none;
+  margin-bottom: 95px;
+  margin-top: 49px;
+}
+
+.conteiner_2 .bottom .browse_bottom {
+  border: 3px solid #F16D7F;
+}
+
+.conteiner_2 .bottom .browse_bottom .browse_text {
+  color: #F26376;
+  padding: 15px 35px;
+}
+
+.conteiner_2 .bottom:hover {
+  background-color: #F16D7F;
+}
+
+.conteiner_2 .bottom:hover .browse_text {
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=index.css.map */
