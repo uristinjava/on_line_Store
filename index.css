@@ -172,10 +172,8 @@
 
 .conteiner_2 .up_promo .promo .link_promo .img_promo {
   position: absolute;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.8) inset;
-          box-shadow: rgba(0, 0, 0, 0.8) inset;
-  -webkit-filter: brightness(70%);
-          filter: brightness(70%);
+  -webkit-filter: brightness(30%);
+          filter: brightness(30%);
 }
 
 .conteiner_2 .up_promo .promo .link_promo .promo_text {
@@ -219,8 +217,8 @@
 
 .conteiner_2 .big_promo .img_promo {
   position: absolute;
-  -webkit-filter: brightness(70%);
-          filter: brightness(70%);
+  -webkit-filter: brightness(30%);
+          filter: brightness(30%);
 }
 
 .conteiner_2 .big_promo .promo_text {
