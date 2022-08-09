@@ -295,44 +295,180 @@
     }
 
 
+}
 
-    .footer_conteiner {
+footer {
+    .first_footer {
         background-color: #222222;
         display: flex;
         justify-content: center;
 
-        .first_footer {
+
+        .footer_conteiner {
             height: 341px;
             width: 1140px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
 
-            .delevery {
 
+            .bread {
                 text-decoration: none;
+                width: 360px;
+                margin-top: 103px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
 
+                .img_footer {
+                    display: block;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+
+
+                .footer_text {
+                    color: #FFFFFF;
+                    font-weight: 400;
+                    margin-top: 28px;
+                    display: block;
+                }
+
+                .footer_item_text {
+                    color: #FFFFFF;
+                    font-weight: 300;
+                    margin-top: 16px;
+                    display: block;
+                    font-size: 13px;
+                    line-height: 16.77px;
+                    text-align: center;
+                }
             }
 
 
         }
+
     }
 
+    .subscribe {
+        background-image: url(img/photo-subscribe.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+
+
+        .subscribe_conteiner {
+            width: 1140px;
+            display: flex;
+            justify-content: space-between;
+
+
+            .review {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+
+                .img_review {
+                    display: block;
+                    height: 320px;
+                    width: 186px;
+
+                }
+
+                .review_text {
+                    display: block;
+                    width: 360px;
+                    text-align: center;
+                }
+            }
+
+            .form {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                width: 557px;
+
+                .text_form {
+                    display: block;
+                    margin-top: 150px;
+                    text-align: center;
+                    margin-bottom: 32px;
+                    text-align: center;
+                }
+
+                .text_subscribe {
+                    display: block;
+                    width: 557px;
+                    margin-bottom: 16px;
+                    width: 557px;
+                }
+
+                .text_sub {}
+
+                .enter_text {
+                    height: 43px;
+                    width: 256px;
+                    border-style: none;
+                    background-color: #E1E1E1;
+                    border-radius: 30px 0px 0px 30px;
+                    padding-left: 22px;
+
+                }
+
+
+                .button_subscribe {
+                    height: 43px;
+                    border-style: none;
+                    background-color: #FFFFFF;
+                    border-radius: 0px 30px 30px 0px;
+
+                    .text_bottom {
+                        padding-left: 16px;
+                        padding-right: 16px;
+                        color: #F16D7F;
+                        padding-top: 13px;
+                        padding-bottom: 13px;
+                    }
+                }
+
+                .button_subscribe:hover {
+                    background-color: #F16D7F;
+
+                    .text_bottom:hover {
+                        color: #FFFFFF;
+                    }
+                }
 
 
 
 
+            }
+        }
+    }
 
+    .second_footer {
+        background-color: #222222;
+        display: flex;
+        justify-content: center;
+        height: 79px;
 
+        .second_footer_conteiner {
+            display: flex;
+            justify-content: space-between;
+            width: 1140px;
+            color: #FFFFFF;
+            align-items: center;
 
+        }
 
-
-
-
-
-
-
-
-
-
-
+    }
 
 
 
