@@ -331,4 +331,22 @@
 .conteiner_2 .bottom:hover .browse_text {
   color: #FFFFFF;
 }
+
+.conteiner_2 .footer_conteiner {
+  width: 1140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.conteiner_2 .footer_conteiner .first_footer {
+  height: 341px;
+}
+
+.conteiner_2 .footer_conteiner .first_footer .delevery {
+  text-decoration: none;
+}
 /*# sourceMappingURL=index.css.map */
