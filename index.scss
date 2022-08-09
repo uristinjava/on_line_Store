@@ -298,6 +298,8 @@
 }
 
 footer {
+    flex: 0 0 auto;
+
     .first_footer {
         background-color: #222222;
         display: flex;
@@ -410,7 +412,9 @@ footer {
                     width: 557px;
                 }
 
-                .text_sub {}
+                .text_sub {
+                    text-align: center;
+                }
 
                 .enter_text {
                     height: 43px;

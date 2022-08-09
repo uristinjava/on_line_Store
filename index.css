@@ -330,6 +330,12 @@
   color: #FFFFFF;
 }
 
+footer {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
 footer .first_footer {
   background-color: #222222;
   display: -webkit-box;
@@ -476,6 +482,10 @@ footer .subscribe .subscribe_conteiner .form .text_subscribe {
   width: 557px;
   margin-bottom: 16px;
   width: 557px;
+}
+
+footer .subscribe .subscribe_conteiner .form .text_sub {
+  text-align: center;
 }
 
 footer .subscribe .subscribe_conteiner .form .enter_text {
