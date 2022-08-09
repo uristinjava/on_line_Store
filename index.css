@@ -333,7 +333,7 @@
 }
 
 .conteiner_2 .footer_conteiner {
-  width: 1140px;
+  background-color: #222222;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -344,6 +344,7 @@
 
 .conteiner_2 .footer_conteiner .first_footer {
   height: 341px;
+  width: 1140px;
 }
 
 .conteiner_2 .footer_conteiner .first_footer .delevery {
