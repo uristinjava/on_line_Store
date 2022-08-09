@@ -60,6 +60,38 @@
         width: 1140px;
         justify-content: center;
 
+        .men {
+            padding-right: 205px;
+        }
+
+        .brand {
+            margin-top: 290px;
+            height: 93px;
+            border-left: 16px solid #F16D7F;
+            display: block;
+            padding-right: 218px;
+
+            .the_brand {
+
+                width: 377px;
+                margin-left: 16px;
+                color: #222222;
+                font-size: 48px;
+                line-height: 57.6px;
+            }
+
+            .fashion {
+                width: 400px;
+                margin-left: 16px;
+                font-size: 32px;
+                line-height: 38.4px;
+            }
+
+            span {
+                color: #F16D7F;
+            }
+        }
+
 
     }
 
@@ -84,46 +116,99 @@
         justify-content: space-between;
         margin-bottom: 30px;
 
-
-
-
-        .item_1 {
-            background-image: url(img/1-for-women.svg);
-            width: 360px;
-            height: 260px;
+        .promo {
             display: flex;
-            flex-direction: column;
-            justify-content: center;
-
-
-
-        }
-
-        .item_2 {
-            background-image: url(img/1-for-man.svg);
             width: 360px;
             height: 260px;
 
+            .link_promo {
+                text-decoration: none;
+
+                .img_promo {
+                    position: absolute;
+                    box-shadow: rgba(0, 0, 0, 0.8) inset;
+                }
+
+                .promo_text {
+                    position: relative;
+                    color: #FFFFFF;
+                    width: 154px;
+                    height: 50px;
+                    left: 103px;
+                    top: 105px;
+                    font-size: 16px;
+                    line-height: 19.2px;
+                    text-transform: uppercase;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+
+
+                    span {
+                        text-transform: uppercase;
+                        font-size: 24px;
+                        color: #F16D7F;
+                        line-height: 28.8px;
+
+                    }
+
+                }
+
+
+
+            }
+
+
         }
 
-        .item_3 {
-            background-image: url(img/1-for-kids.svg);
-            width: 360px;
-            height: 260px;
-        }
+
+
 
 
 
     }
 
-    .item_4 {
+    .big_promo {
         width: 1140px;
         height: 260px;
-        background-image: url(img/item_bottom.svg);
-        background-repeat: no-repeat;
-        background-position: 100%;
-        align-items: center;
+
+        // background-image: url(img/item_bottom.svg);
+        // background-repeat: no-repeat;
+        // background-position: 100%;
         margin-bottom: 96px;
+
+        .link_promo {
+            text-decoration: none;
+        }
+
+        .img_promo {
+            position: absolute;
+        }
+
+        .promo_text {
+            position: relative;
+            color: #FFFFFF;
+            width: 154px;
+            height: 50px;
+            left: 491px;
+            top: 65px;
+            font-size: 16px;
+            line-height: 19.2px;
+            text-transform: uppercase;
+
+
+
+            span {
+                text-transform: uppercase;
+                font-size: 24px;
+                color: #F16D7F;
+                line-height: 28.8px;
+
+            }
+
+        }
+
+
     }
 
 

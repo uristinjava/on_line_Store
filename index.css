@@ -45,63 +45,6 @@
           justify-content: space-between;
 }
 
-.header .menu .list_1 .kavormu-poiska {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, 50%);
-          transform: translate(-50%, 50%);
-  background: #2f3640;
-  height: 40px;
-  border-radius: 40px;
-  padding: 10px;
-}
-
-.header .menu .list_1 .kavormu-poiska:hover > .kasuvaudusya {
-  width: 258px;
-  padding: 0 6px;
-}
-
-.header .menu .list_1 .kavormu-poiska:hover > .animirovanaya-forma {
-  background: white;
-  color: #2f3640;
-}
-
-.header .menu .list_1 .animirovanaya-forma {
-  color: #f7f1f1;
-  float: right;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: #2c3138;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-  cursor: pointer;
-}
-
-.header .menu .list_1 .kasuvaudusya {
-  border: none;
-  background: none;
-  outline: none;
-  float: left;
-  padding: 0;
-  color: white;
-  font-size: 16px;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-  line-height: 40px;
-  width: 0px;
-}
-
 .header .menu .list_2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -144,6 +87,37 @@
           justify-content: center;
 }
 
+.item_main .conteiner .men {
+  padding-right: 205px;
+}
+
+.item_main .conteiner .brand {
+  margin-top: 290px;
+  height: 93px;
+  border-left: 16px solid #F16D7F;
+  display: block;
+  padding-right: 218px;
+}
+
+.item_main .conteiner .brand .the_brand {
+  width: 377px;
+  margin-left: 16px;
+  color: #222222;
+  font-size: 48px;
+  line-height: 57.6px;
+}
+
+.item_main .conteiner .brand .fashion {
+  width: 400px;
+  margin-left: 16px;
+  font-size: 32px;
+  line-height: 38.4px;
+}
+
+.item_main .conteiner .brand span {
+  color: #F16D7F;
+}
+
 .conteiner_2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -184,43 +158,83 @@
   margin-bottom: 30px;
 }
 
-.conteiner_2 .up_promo .item_1 {
-  background-image: url(img/1-for-women.svg);
-  width: 360px;
-  height: 260px;
+.conteiner_2 .up_promo .promo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 360px;
+  height: 260px;
+}
+
+.conteiner_2 .up_promo .promo .link_promo {
+  text-decoration: none;
+}
+
+.conteiner_2 .up_promo .promo .link_promo .img_promo {
+  position: absolute;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) inset;
+          box-shadow: rgba(0, 0, 0, 0.8) inset;
+}
+
+.conteiner_2 .up_promo .promo .link_promo .promo_text {
+  position: relative;
+  color: #FFFFFF;
+  width: 154px;
+  height: 50px;
+  left: 103px;
+  top: 105px;
+  font-size: 16px;
+  line-height: 19.2px;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
-.conteiner_2 .up_promo .item_2 {
-  background-image: url(img/1-for-man.svg);
-  width: 360px;
-  height: 260px;
+.conteiner_2 .up_promo .promo .link_promo .promo_text span {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #F16D7F;
+  line-height: 28.8px;
 }
 
-.conteiner_2 .up_promo .item_3 {
-  background-image: url(img/1-for-kids.svg);
-  width: 360px;
-  height: 260px;
-}
-
-.conteiner_2 .item_4 {
+.conteiner_2 .big_promo {
   width: 1140px;
   height: 260px;
-  background-image: url(img/item_bottom.svg);
-  background-repeat: no-repeat;
-  background-position: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin-bottom: 96px;
+}
+
+.conteiner_2 .big_promo .link_promo {
+  text-decoration: none;
+}
+
+.conteiner_2 .big_promo .img_promo {
+  position: absolute;
+}
+
+.conteiner_2 .big_promo .promo_text {
+  position: relative;
+  color: #FFFFFF;
+  width: 154px;
+  height: 50px;
+  left: 491px;
+  top: 65px;
+  font-size: 16px;
+  line-height: 19.2px;
+  text-transform: uppercase;
+}
+
+.conteiner_2 .big_promo .promo_text span {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #F16D7F;
+  line-height: 28.8px;
 }
 /*# sourceMappingURL=index.css.map */
