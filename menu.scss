@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    //background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .menu_conteiner {
+        width: 1140px;
+        // height: 75px;
+        display: flex;
+        justify-content: space-between;
+
+        .logo {
+            display: flex;
+
+            .list_1 {
+                display: block;
+                display: flex;
+                align-items: center;
+                list-style-type: none;
+
+                .logo_link {
+
+                    display: block;
+
+                }
+
+                .find {
+
+                    margin-left: 41px;
+                }
+
+            }
+
+        }
+
+
+        .list_2 {
+            display: block;
+            list-style-type: none;
+            display: flex;
+            width: 160px;
+            justify-content: space-between;
+            align-items: center;
+            height: 75px;
+
+
+            .list_menu {
+                padding: 23px 0px 23px;
+
+                .mega-box {
+                    background-color: white;
+                    border: 1px solid white;
+                    padding: 33px;
+                    box-shadow: #F16D7F;
+
+                    .item_menu {
+                        .mega_heading {
+                            color: #F16D7F;
+                            font-size: 14px;
+                            line-height: 17px;
+                            line-height: 100%;
+                        }
+
+                    }
+
+
+
+                }
+
+            }
+
+            .link_menu {
+                padding: 25px 0px 25px;
+            }
+        }
+
+
+
+    }
+}
+
+.contteiner_main {
+
+    background-color: #F1E4E6;
+    display: flex;
+    justify-content: center;
+
+    .item_main {
+        width: 1600px;
+        height: 764px;
+        display: flex;
+        justify-content: space-between;
+
+
+        .text_main {
+
+            width: 381px;
+            margin-top: 291px;
+            margin-right: 316px;
+
+
+
+
+            .text {
+                display: block;
+                height: fit-content;
+                border-left: 12px solid #F16D7F;
+                padding-left: 12px;
+
+                span {
+
+                    color: #F16D7F;
+                }
+            }
+
+
+        }
+    }
+}
