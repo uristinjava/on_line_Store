@@ -13,6 +13,9 @@
     align-items: center;
 
 
+
+
+
     .menu {
         width: 1140px;
         height: 75px;
@@ -31,6 +34,7 @@
 
         }
 
+
         .list_2 {
             display: flex;
             list-style: none;
@@ -38,12 +42,22 @@
             height: 75px;
             width: 160px;
             justify-content: space-around;
+
+
+
         }
 
 
 
+
+
+
     }
+
+
 }
+
+
 
 .item_main {
     height: 764px;
@@ -55,10 +69,12 @@
     align-items: center;
 
 
+
     .conteiner {
         display: flex;
         width: 1140px;
         justify-content: center;
+        position: absolute;
 
         .men {
             padding-right: 205px;
