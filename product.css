@@ -22,7 +22,7 @@
 .menu {
     display: flex;
     margin: 0px;
-    padding: 18px 80px 25px 0px;
+    padding: 18px 0px 25px 0px;
     align-items: center;
 }
 
@@ -80,33 +80,6 @@
 
 }
 
-.conteiner_main {
-    width: 1800px;
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.men {
-    margin-left: 69px;
-}
-
-.brand {
-    border-left: 12px solid #F16D7F;
-    height: fit-content;
-    padding-left: 10px;
-    margin-top: 290px;
-    margin-right: 424px
-}
-
-.the_brand .fashion {
-    display: block;
-}
-
-span {
-    color: #F16D7F;
-}
-
 .mega_menu_title {
     text-transform: uppercase;
     margin-left: 34px;
@@ -127,156 +100,214 @@ span {
 }
 
 
-.promo {
+
+/* блок аривалс */
+
+.new_arivals {
+    background-color: #F8F3F4;
     display: flex;
     justify-content: center;
-
-
 }
 
-.promo_conteiner {
+.new_arivals_conteiner {
     width: 1140px;
+    height: 148px;
     display: flex;
     justify-content: space-between;
-    position: relative;
-
-
-}
-
-.promo_item {
-
-    margin-bottom: 56px;
-    margin-top: 63px;
-
-
-}
-
-
-
-.promo_item_text {
-    display: block;
-    position: absolute;
-    text-align: center;
-    font-weight: 400;
-    font-size: 16px;
-    Line-height: 19.2px;
-    top: 150px;
-    width: 360px;
-    z-index: 1;
-}
-
-.promo_item_img {
-    filter: brightness(30%);
-}
-
-
-
-
-.promo_link {
-    display: block;
-    text-decoration: none;
-    color: white;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19.2px;
-
-}
-
-
-
-
-.text {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28.8px;
-
-}
-
-.big_promo {
-    display: flex;
-    justify-content: center;
-
-}
-
-.big_promo_conteiner {
-    width: 1140px;
-}
-
-.big_link_promo {
-    display: block;
-
-}
-
-
-
-.big_promo_conteiner {
-    width: 1140px;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    ;
-}
-
-.big_link_promo {
-    display: block;
-    text-decoration: none;
-}
-
-.big_img_promo {
-    filter: brightness(30%);
-}
-
-.big_promo_text {
-    display: block;
-    position: absolute;
-    text-align: center;
-    font-weight: 400;
-    font-size: 16px;
-    Line-height: 19.2px;
-    top: 65px;
-    width: 1140px;
-    z-index: 1;
-    color: white;
-
-
-}
-
-.text_big_promo {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28.8px;
-}
-
-.fetured_conteiner {
-    display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
-.text_fetured {
-    margin-top: 65px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 48px;
-}
-
-.fetured {
-    color: #222222;
-    font-size: 30px;
-    line-height: 36px;
+.new_arivals_heading {
+    display: block;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 29px;
     line-height: 100%;
-    margin-bottom: 6px;
+    color: #F16D7F;
 }
 
-.shop {
+.brad {
+    display: flex;
+}
+
+.brad_link {
+    display: block;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+    Line-height: 16.8px;
+    text-transform: uppercase;
+    color: #636363
+}
+
+.brad_link:hover {
+    color: #F16D7F;
+}
+
+/* блок калейдоскоп */
+
+.product {
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+}
+
+.product_conteiner {
+    width: 1140px;
+    height: 777px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+
+}
+
+.description {
+    position: absolute;
+    top: 977px;
+    width: 1140px;
+    height: 601px;
+    background-color: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description_header {
+    display: block;
+    color: #F16D7F;
+    text-transform: uppercase;
+    margin-top: 64.5px;
     font-size: 14px;
     line-height: 17px;
     line-height: 100%;
-    color: #9F9F9F;
+
+}
+
+.border {
+    width: 63px;
+    height: 3px;
+    border-top: 3px solid #EF5B70;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.description_name {
+    display: block;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 18px;
+    line-height: 22px;
+    line-height: 100%;
+    color: #4D4D4D;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+
+}
+
+.description_text {
+    display: block;
+    width: 555px;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 14px;
+    line-height: 17px;
+    line-height: 100%;
+    color: #5E5E5E;
+    margin-bottom: 32px;
+}
+
+.description_price {
+    display: block;
+    width: 641px;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 24px;
+    line-height: 29px;
+    line-height: 100%;
+    color: #EF5B70;
+    padding-bottom: 65px;
+    border-bottom: 1px solid #EAEAEA;
+    margin-bottom: 65px;
+
+}
+
+.description_choice_bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 354px;
+
+}
+
+.choose {
+    display: block;
+    color: #6F6E6E;
+    font-size: 14px;
+    line-height: 17px;
+    line-height: 100%;
+    font-weight: 400;
+    margin-bottom: 48px;
+
+
+}
+
+
+
+
+
+/* кнопка добавления товара */
+
+.bottom {
+
+    text-decoration: none;
+
+
+}
+
+.browse_bottom {
+    border: 3px solid #F16D7F;
+    width: 211px;
+    display: flex;
+    align-items: center;
+
+}
+
+.browse_text {
+    display: block;
+    color: #F26376;
+    text-align: center;
+    padding: 14px 30px;
+}
+
+.cart {
+    padding: 7px 16px 14px 24px;
+}
+
+.browse_bottom:hover {
+    background-color: #F16D7F;
+}
+
+.browse_text:hover {
+    color: white;
+}
+
+.cart:hover .browse_text {
+    color: white;
+}
+
+/* добавляем item */
+
+
+.item_main {
+    display: flex;
+    background-color: white;
 }
 
 .item_box {
+    margin-top: 665px;
+    margin-bottom: 128px;
     width: 1140px;
     display: flex;
     flex-wrap: wrap;
@@ -286,6 +317,7 @@ span {
 .item {
     width: 360px;
     height: 581px;
+    background-color: #F8F8F8;
 }
 
 .item_header {
@@ -313,30 +345,6 @@ span {
 
 }
 
-.bottom {
-    text-decoration: none;
-    margin-bottom: 95px;
-    margin-top: 49px;
-
-}
-
-.browse_bottom {
-    border: 3px solid #F16D7F;
-    width: fit-content;
-}
-
-.browse_text {
-    color: #F26376;
-    padding: 15px 35px;
-}
-
-.bottom:hover {
-    background-color: #F16D7F;
-}
-
-.browse_text:hover {
-    color: white;
-}
 
 .footer {
     flex: 0 0 auto;
