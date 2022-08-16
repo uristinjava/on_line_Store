@@ -442,7 +442,7 @@ span {
 .subscribe {
     background-image: url(img/photo-subscribe.svg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     height: 450px;
     display: flex;
     justify-content: center;
