@@ -228,9 +228,39 @@
     display: flex;
 }
 
+.choose_blok_detalils {
+    position: relative;
+    /* background-color: #FFFFFF;
+    box-shadow: 5px 5px 5px 5px color #E5E5E5;
+    border: 1px solid #E5E5E5; */
+
+}
+
+.choose_blok_option {
+    width: 122px;
+    display: block;
+    position: absolute;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 5px 5px color #E5E5E5;
+    z-index: 1;
+    padding-left: 9.5px;
+
+}
+
 .choose_blok_text {
     display: block;
     margin-right: 23px;
+    margin-bottom: 5px;
+}
+
+.input {
+    text-transform: uppercase;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    color: #6F6E6E;
+    font-size: 14px;
+    line-height: 16px;
+    line-height: 100%;
 }
 
 
