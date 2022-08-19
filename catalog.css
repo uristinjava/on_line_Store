@@ -254,6 +254,7 @@
 }
 
 .input {
+
     text-transform: uppercase;
     margin-top: 6px;
     margin-bottom: 6px;
@@ -263,6 +264,10 @@
     line-height: 100%;
 }
 
+.choose_blok_text:hover {
+    color: #F16D7F;
+
+}
 
 
 /* добавляем item */
