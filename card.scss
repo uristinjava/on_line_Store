@@ -460,7 +460,7 @@ $width-syte: 1140px;
                 .buttom_adress:hover {
                     color: #F16D7F;
                     background-color: #F5F3F3;
-                    border: none;
+                    border: 1px solid #FFFFFF;
 
                 }
 
@@ -474,45 +474,86 @@ $width-syte: 1140px;
                 background-color: #F5F3F3;
                 height: max-content;
                 margin-top: 57.5px;
+                // border: 1px solid black;
+                display: flex;
+                flex-direction: column;
+
 
                 .card_total_box {
-                    border: 1px solid black;
-                    display: flex;
-                    flex-direction: column;
+
+
+
+                    width: 275px;
+                    align-self: end;
+                    padding-right: 42px;
+
 
 
                     .txt_sub_total {
                         text-align: end;
+                        padding-top: 39px;
+                        font-size: 11px;
+                        line-height: 13px;
+                        line-height: 100%;
+                        margin-bottom: 12px;
                     }
 
                     .txt_grand_total {
                         text-align: end;
+                        border-bottom: 1px solid #E2E2E2;
+                        padding-bottom: 17px;
+                        font-size: 16px;
+                        line-height: 19px;
+                        line-height: 100%;
+
 
                         .grand_total_txt {
                             color: #F16D7F;
                         }
                     }
 
-                    // .buttom {
-                    //     .buttom_card {
-                    //         width: fit-content;
-                    //         background-color: #F16D7F;
-                    //         align-self: center;
+                }
+
+                .buttom {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 17px;
+                    padding-bottom: 42px;
 
 
-                    //         &_txt {
-                    //             padding: 15px 43px 15px 43px;
-                    //             color: #FFFFFF;
-                    //         }
-
-                    //     }
-
-                    // }
+                    .buttom_card {
+                        width: fit-content;
+                        background-color: #F16D7F;
+                        align-self: center;
 
 
+                        &_txt {
+                            padding: 15px 43px 15px 43px;
+                            color: #FFFFFF;
+                            text-align: center;
+                        }
 
+                    }
 
                 }
+
+                .buttom:hover .buttom_card {
+                    background-color: #FFFFFF;
+
+                }
+
+                .buttom:hover .buttom_card_txt {
+                    color: #EF5B70;
+                }
+
+
+
+
+
+
+
+
+
 
 
             }

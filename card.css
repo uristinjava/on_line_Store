@@ -512,7 +512,7 @@
 .shop_card .shop_card_box .shiping_adress .shipin_adress_form .buttom_adress:hover {
   color: #F16D7F;
   background-color: #F5F3F3;
-  border: none;
+  border: 1px solid #FFFFFF;
 }
 
 .shop_card .shop_card_box .shiping_adress .card_total {
@@ -522,10 +522,6 @@
   height: -moz-max-content;
   height: max-content;
   margin-top: 57.5px;
-}
-
-.shop_card .shop_card_box .shiping_adress .card_total .card_total_box {
-  border: 1px solid black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -535,15 +531,68 @@
           flex-direction: column;
 }
 
+.shop_card .shop_card_box .shiping_adress .card_total .card_total_box {
+  width: 275px;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  padding-right: 42px;
+}
+
 .shop_card .shop_card_box .shiping_adress .card_total .card_total_box .txt_sub_total {
   text-align: end;
+  padding-top: 39px;
+  font-size: 11px;
+  line-height: 13px;
+  line-height: 100%;
+  margin-bottom: 12px;
 }
 
 .shop_card .shop_card_box .shiping_adress .card_total .card_total_box .txt_grand_total {
   text-align: end;
+  border-bottom: 1px solid #E2E2E2;
+  padding-bottom: 17px;
+  font-size: 16px;
+  line-height: 19px;
+  line-height: 100%;
 }
 
 .shop_card .shop_card_box .shiping_adress .card_total .card_total_box .txt_grand_total .grand_total_txt {
   color: #F16D7F;
+}
+
+.shop_card .shop_card_box .shiping_adress .card_total .buttom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 17px;
+  padding-bottom: 42px;
+}
+
+.shop_card .shop_card_box .shiping_adress .card_total .buttom .buttom_card {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #F16D7F;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.shop_card .shop_card_box .shiping_adress .card_total .buttom .buttom_card_txt {
+  padding: 15px 43px 15px 43px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.shop_card .shop_card_box .shiping_adress .card_total .buttom:hover .buttom_card {
+  background-color: #FFFFFF;
+}
+
+.shop_card .shop_card_box .shiping_adress .card_total .buttom:hover .buttom_card_txt {
+  color: #EF5B70;
 }
 /*# sourceMappingURL=card.css.map */
