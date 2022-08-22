@@ -1,0 +1,525 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+$width-syte: 1140px;
+
+.center_box {
+    display: flex;
+    justify-content: center;
+}
+
+.text_style {
+    font-size: 24px;
+    font-style: length;
+    line-height: 29px;
+    line-height: 100%;
+}
+
+.txt_item {
+    font-size: 22px;
+    line-height: 26px;
+    line-height: 100%;
+}
+
+.text_style_form {
+    font-style: Light;
+    font-size: 13px;
+    line-height: 16px;
+    line-height: 100%;
+    color: #B1B1B1;
+}
+
+
+
+
+
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.conteiner_menu {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu {
+    display: flex;
+    margin: 0px;
+    padding: 18px 0px 25px 0px;
+    align-items: center;
+}
+
+.menu_link {
+    display: block;
+    margin-right: 41px;
+    position: relative;
+}
+
+
+.mega_menu_box {
+    position: absolute;
+    background-color: white;
+    top: 52px;
+    left: -2px;
+    width: 232px;
+    padding-bottom: 50px;
+    min-height: 764px;
+    display: none;
+    z-index: 1;
+}
+
+
+/* эффект появления меню */
+.menu:hover .mega_menu_box {
+    display: table;
+}
+
+.mega_menu_heading {
+    color: #000000;
+    text-transform: uppercase;
+    margin-top: 37px;
+    margin-left: 34px;
+    margin-bottom: 24px;
+}
+
+
+.link_mega_menu {
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #6F6E6E;
+    margin-top: 11px;
+    margin-left: 54.5px;
+    font-size: 14px;
+    line-height: 17px;
+    line-height: 100%;
+
+}
+
+.item_main {
+    background-color: #F1E4E6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.mega_menu_title {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 34px;
+    margin-bottom: 12px;
+    color: #F16D7F;
+    font-size: 14px;
+    line-height: 17px;
+    line-height: 100%;
+    margin-top: 20px;
+
+
+}
+
+/* эффект окрашивания ссылки товаров */
+
+.link_mega_menu:hover {
+    color: #F16D7F;
+}
+
+
+.footer {
+    flex: 0 0 auto;
+}
+
+.first_footer {
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_conteiner {
+    height: 341px;
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bread {
+    text-decoration: none;
+    width: 360px;
+    margin-top: 103px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img_footer {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer_text {
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-top: 28px;
+    display: block;
+}
+
+.footer_item_text {
+    color: #FFFFFF;
+    font-weight: 300;
+    margin-top: 16px;
+    display: block;
+    font-size: 13px;
+    line-height: 16.77px;
+    text-align: center;
+}
+
+.subscribe {
+    background-image: url(img/photo-subscribe.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe_conteiner {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_review {
+    display: block;
+    height: 320px;
+    width: 186px;
+
+}
+
+.review_text {
+    display: block;
+    width: 360px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 557px;
+}
+
+.text_form {
+    display: block;
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.text_subscribe {
+    display: block;
+    width: 557px;
+    margin-bottom: 16px;
+    width: 557px;
+}
+
+.text_sub {
+    text-align: center;
+}
+
+.enter_text {
+    height: 43px;
+    width: 256px;
+    border-style: none;
+    background-color: #E1E1E1;
+    border-radius: 30px 0px 0px 30px;
+    padding-left: 22px;
+
+}
+
+.button_subscribe {
+    height: 43px;
+    border-style: none;
+    background-color: #FFFFFF;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.text_bottom {
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #F16D7F;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.button_subscribe:hover {
+    background-color: #F16D7F;
+}
+
+.text_bottom:hover {
+    color: #FFFFFF;
+}
+
+.second_footer {
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    height: 79px;
+}
+
+.second_footer_conteiner {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    color: #FFFFFF;
+    align-items: center;
+
+}
+
+// выше блок меню и футер
+
+.shopping_cart {
+    @extend .center_box;
+    background-color: #F8F3F4;
+    margin-bottom: 96px;
+
+    .shopping_cart_box {
+        width: $width-syte;
+
+
+
+        .shopping_cart_name {
+            display: block;
+            @extend .text_style;
+            color: #F16D7F;
+            padding-top: 60px;
+            padding-bottom: 60px;
+
+        }
+
+    }
+
+
+
+
+}
+
+.shop_card {
+    @extend .center_box;
+
+    .shop_card_box {
+        width: $width-syte;
+        display: flex;
+
+        .card {
+            display: flex;
+            flex-direction: column;
+
+            .item {
+
+                display: flex;
+                margin-bottom: 40px;
+                width: max-content;
+                box-shadow: 3px 3px 3px 3px #E5E5E5;
+
+                .item_description {
+                    display: block;
+                    margin-top: 22px;
+
+                    .item_hearding {
+                        display: block;
+                        @extend .text_style;
+                        margin-left: 31px;
+                        padding-right: 97px;
+                        margin-bottom: 42px;
+                        width: 262px;
+
+
+                    }
+
+                    .item_txt {
+                        display: block;
+                        margin-left: 31px;
+                        margin-bottom: 7.5px;
+                        font-size: 22px;
+                        line-height: 26px;
+                        line-height: 100%;
+
+                        .price {
+                            color: #EF5B70;
+                        }
+
+                        .item_txt_amount {
+                            border: 1px solid #EAEAEA;
+                            padding-left: 1px;
+                            padding-right: 1px;
+                            width: 44px;
+                            height: 24px;
+                            @extend .txt_item;
+                        }
+                    }
+                }
+
+
+
+            }
+
+            .buttom_box {
+
+                display: flex;
+                justify-content: space-between;
+                width: 652px;
+                margin-bottom: 128.5px;
+                margin-top: 72px;
+
+                .buttom {
+                    border: 1px solid #A4A4A4;
+                    padding: 17px 40px;
+                    font-style: Light;
+                    font-size: 14px;
+                    line-height: 17px;
+                    line-height: 100%
+                }
+
+                .buttom:hover {
+                    color: #F16D7F;
+                    background-color: #F5F3F3;
+                    border: none;
+                }
+
+            }
+
+        }
+
+        .shiping_adress {
+            margin-left: 128.5px;
+            width: 360px;
+
+            .shipin_adress_form {
+                display: flex;
+                flex-direction: column;
+
+                .shiping_adress_hearding {
+                    display: block;
+                    margin-bottom: 20.5px;
+                }
+
+                .input_txt {
+                    margin-top: 12px;
+                    margin-bottom: 15.5px;
+                    font-size: 13px;
+                    line-height: 16px;
+                    line-height: 100%;
+
+
+                    .input {
+                        padding-left: 16px;
+                        height: 45px;
+                        width: 338px;
+
+                    }
+
+                }
+
+                .buttom_adress {
+                    border: 1px solid #A4A4A4;
+                    width: fit-content;
+
+                    &_txt {
+                        font-size: 11px;
+                        line-height: 13px;
+                        line-height: 100%;
+                        padding: 10px 15px;
+
+                    }
+
+
+                }
+
+                .buttom_adress:hover {
+                    color: #F16D7F;
+                    background-color: #F5F3F3;
+                    border: none;
+
+                }
+
+
+
+
+            }
+
+            .card_total {
+                width: 360px;
+                background-color: #F5F3F3;
+                height: max-content;
+                margin-top: 57.5px;
+
+                .card_total_box {
+                    border: 1px solid black;
+                    display: flex;
+                    flex-direction: column;
+
+
+                    .txt_sub_total {
+                        text-align: end;
+                    }
+
+                    .txt_grand_total {
+                        text-align: end;
+
+                        .grand_total_txt {
+                            color: #F16D7F;
+                        }
+                    }
+
+                    // .buttom {
+                    //     .buttom_card {
+                    //         width: fit-content;
+                    //         background-color: #F16D7F;
+                    //         align-self: center;
+
+
+                    //         &_txt {
+                    //             padding: 15px 43px 15px 43px;
+                    //             color: #FFFFFF;
+                    //         }
+
+                    //     }
+
+                    // }
+
+
+
+
+                }
+
+
+            }
+
+        }
+
+    }
+
+
+}
