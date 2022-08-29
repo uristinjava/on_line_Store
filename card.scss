@@ -1,6 +1,10 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: 'Lato', sans-serif;
+    outline: none;
+    text-decoration: none;
+
 
 }
 
@@ -32,6 +36,13 @@ $width-syte: 1140px;
     color: #B1B1B1;
 }
 
+.link_item {
+    display: block;
+
+
+
+}
+
 
 
 
@@ -54,32 +65,32 @@ $width-syte: 1140px;
 .menu {
     display: flex;
     margin: 0px;
-    padding: 18px 0px 25px 0px;
+    padding: 18px 0px 0px 0px;
     align-items: center;
 }
 
 .menu_link {
     display: block;
-    margin-right: 41px;
+    padding-right: 41px;
     position: relative;
+    padding-bottom: 25px;
 }
 
 
 .mega_menu_box {
     position: absolute;
     background-color: white;
-    top: 52px;
+    top: 49px;
     left: -2px;
     width: 232px;
     padding-bottom: 50px;
     min-height: 764px;
     display: none;
-    z-index: 1;
 }
 
 
 /* эффект появления меню */
-.menu:hover .mega_menu_box {
+.menu_link:hover .mega_menu_box {
     display: table;
 }
 
@@ -102,6 +113,8 @@ $width-syte: 1140px;
     font-size: 14px;
     line-height: 17px;
     line-height: 100%;
+    margin-bottom: 12px;
+
 
 }
 
@@ -113,8 +126,34 @@ $width-syte: 1140px;
 
 }
 
-.mega_menu_title {
+.conteiner_main {
+    width: 1800px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.men {
+    margin-left: 69px;
+}
+
+.brand {
+    border-left: 12px solid #F16D7F;
+    height: fit-content;
+    padding-left: 10px;
+    margin-top: 290px;
+    margin-right: 424px
+}
+
+.the_brand .fashion {
     display: block;
+}
+
+span {
+    color: #F16D7F;
+}
+
+.mega_menu_title {
     text-decoration: none;
     text-transform: uppercase;
     margin-left: 34px;
@@ -132,6 +171,7 @@ $width-syte: 1140px;
 
 .link_mega_menu:hover {
     color: #F16D7F;
+
 }
 
 
@@ -191,7 +231,8 @@ $width-syte: 1140px;
     background-image: url(img/photo-subscribe.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 450px;
+    background-position: bottom;
+    height: 450px;
     display: flex;
     justify-content: center;
 }
@@ -206,13 +247,14 @@ $width-syte: 1140px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 20px;
+    line-height: 24px;
+
 }
 
 .img_review {
-    display: block;
-    height: 320px;
-    width: 186px;
-
+    margin-top: 87px;
+    margin-bottom: 50px;
 }
 
 .review_text {
@@ -250,11 +292,12 @@ $width-syte: 1140px;
 
 .enter_text {
     height: 43px;
-    width: 256px;
+    width: 234px;
     border-style: none;
     background-color: #E1E1E1;
     border-radius: 30px 0px 0px 30px;
     padding-left: 22px;
+    padding-right: 22px;
 
 }
 
@@ -296,6 +339,27 @@ $width-syte: 1140px;
     align-items: center;
 
 }
+
+.icone {
+    display: block;
+    margin-right: 8px;
+    color: #000000;
+    background-color: #FFFFFF;
+    height: 32px;
+    width: 32px;
+}
+
+.icone:hover {
+    background-color: #F16D7F;
+    color: #FFFFFF;
+
+}
+
+.media {
+    display: flex;
+}
+
+
 
 // выше блок меню и футер
 
@@ -403,9 +467,10 @@ $width-syte: 1140px;
                 }
 
                 .buttom:hover {
-                    color: #F16D7F;
-                    background-color: #F5F3F3;
+                    color: white;
+                    background-color: #F16D7F;
                     border: none;
+                    transition: none;
                 }
 
             }
