@@ -1,7 +1,8 @@
 * {
     padding: 0px;
     margin: 0px;
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
+    outline: none;
 }
 
 .header {
@@ -22,21 +23,22 @@
 .menu {
     display: flex;
     margin: 0px;
-    padding: 18px 0px 25px 0px;
+    padding: 18px 0px 0px 0px;
     align-items: center;
 }
 
 .menu_link {
     display: block;
-    margin-right: 41px;
+    padding-right: 41px;
     position: relative;
+    padding-bottom: 25px;
 }
 
 
 .mega_menu_box {
     position: absolute;
     background-color: white;
-    top: 52px;
+    top: 49px;
     left: -2px;
     width: 232px;
     padding-bottom: 50px;
@@ -47,7 +49,7 @@
 
 
 /* эффект появления меню */
-.menu:hover .mega_menu_box {
+.menu_link:hover .mega_menu_box {
     display: table;
 }
 
@@ -70,6 +72,8 @@
     font-size: 14px;
     line-height: 17px;
     line-height: 100%;
+    margin-bottom: 12px;
+
 
 }
 
@@ -81,8 +85,34 @@
 
 }
 
-.mega_menu_title {
+.conteiner_main {
+    width: 1800px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.men {
+    margin-left: 69px;
+}
+
+.brand {
+    border-left: 12px solid #F16D7F;
+    height: fit-content;
+    padding-left: 10px;
+    margin-top: 290px;
+    margin-right: 424px
+}
+
+.the_brand .fashion {
     display: block;
+}
+
+span {
+    color: #F16D7F;
+}
+
+.mega_menu_title {
     text-decoration: none;
     text-transform: uppercase;
     margin-left: 34px;
@@ -100,6 +130,7 @@
 
 .link_mega_menu:hover {
     color: #F16D7F;
+
 }
 
 
@@ -237,6 +268,8 @@
 
 }
 
+
+
 .description_choice_bottom {
     display: flex;
     justify-content: space-between;
@@ -251,9 +284,19 @@
     line-height: 17px;
     line-height: 100%;
     font-weight: 400;
-    margin-bottom: 48px;
+    margin-bottom: 16px;
 
 
+
+}
+
+.input_number {
+    border: 1px solid #EAEAEA;
+    padding-left: 1px;
+    padding-right: 1px;
+    width: 44px;
+    height: 24px;
+    position: absolute;
 }
 
 /* кнопка перехода в карточку товара */
@@ -261,6 +304,9 @@
 .bottom {
     display: block;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+
 }
 
 .browse_bottom {
@@ -268,6 +314,7 @@
     width: 211px;
     display: flex;
     align-items: center;
+    margin-top: 42px;
 
 }
 
@@ -288,6 +335,33 @@
 
 }
 
+.input {
+
+    text-transform: uppercase;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    color: #6F6E6E;
+    font-size: 14px;
+    line-height: 16px;
+    line-height: 100%;
+}
+
+.box_link_choose {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 100px;
+    border: 1px solid #eee;
+}
+
+.choose:hover {
+    color: #F16D7F;
+}
+
+
 
 
 /* добавляем item */
@@ -298,8 +372,12 @@
     background-color: white;
 }
 
+.substrate {
+    height: 600px;
+}
+
 .item_box {
-    margin-top: 665px;
+    margin-top: 65px;
     margin-bottom: 128px;
     width: 1140px;
     display: flex;
@@ -451,7 +529,8 @@
     background-image: url(img/photo-subscribe.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 450px;
+    background-position: bottom;
+    height: 450px;
     display: flex;
     justify-content: center;
 }
@@ -466,13 +545,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 20px;
+    line-height: 24px;
+
 }
 
 .img_review {
-    display: block;
-    height: 320px;
-    width: 186px;
-
+    margin-top: 87px;
+    margin-bottom: 50px;
 }
 
 .review_text {
@@ -510,11 +590,12 @@
 
 .enter_text {
     height: 43px;
-    width: 256px;
+    width: 234px;
     border-style: none;
     background-color: #E1E1E1;
     border-radius: 30px 0px 0px 30px;
     padding-left: 22px;
+    padding-right: 22px;
 
 }
 
@@ -554,5 +635,24 @@
     width: 1140px;
     color: #FFFFFF;
     align-items: center;
+
+}
+
+.media {
+    display: flex;
+}
+
+.icone {
+    display: block;
+    margin-right: 8px;
+    color: #000000;
+    background-color: #FFFFFF;
+    height: 32px;
+    width: 32px;
+}
+
+.icone:hover {
+    background-color: #F16D7F;
+    color: #FFFFFF;
 
 }
