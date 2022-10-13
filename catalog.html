@@ -9,22 +9,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     <title>Catalog</title>
     <script src="https://kit.fontawesome.com/f557f1dc1a.js" crossorigin="anonymous"></script>
+
 </head>
+
 
 <body>
     <header class="header">
 
         <div class="conteiner_menu">
             <ul class="menu">
-                <li class="menu_link"><a href="index.html"><img src="img/Logo.svg" alt=""></a></li>
+                <li class="menu_link">
+                    <a href="index.html"><img src="img/Logo.svg" alt=""></a>
+                </li>
 
-                <li class="menu_link"><a href="#"><img src="img/find.svg" alt=""></a></li>
+                <li class="menu_link">
+                    <a href="#"><img src="img/find.svg" alt=""></a>
+                </li>
 
             </ul>
 
             <nav>
                 <ul class="menu">
-                    <li class="menu_link"> <img src="img/list.svg" alt="" class="list"> </a>
+                    <li class="menu_link">
+                        <a href="#">
+                            <img src="img/list.svg" alt="" class="list">
+                        </a>
                         <div class="mega_menu_box">
 
                             <h3 class="mega_menu_heading">menu</h3>
@@ -90,17 +99,56 @@
 
                     </li>
 
-                    <li class="menu_link"><a href="registration.html"><img src="img/reg.svg" alt=""></a></li>
+                    <li class="menu_link">
+                        <a href="registration.html">
+                            <img src="img/reg.svg" alt="">
+                        </a>
+                    </li>
 
-                    <li class="menu_link"><a href="card.html"><img src="img/shop.svg" alt=""></a></li>
+
+
+                    <li class="menu_link card_img">
+                        <a href="#">
+                            <img src="img/shop.svg" alt="корзина">
+                        </a>
+
+
+                        <div class="card_box card_img_link">
+                            <span class="card_box_caunter">0</span>
+                        </div>
+
+                        <div class="card_box_nav hidden">
+                            <div class="card_box_nav_title">
+                                <div class="card_box_nav_title_name">Товар</div>
+                                <div class="card_box_nav_title_name">Количество</div>
+                                <div class="card_box_nav_title_name">Цена</div>
+                            </div>
+
+                            <div class="card_box_nav_link_title_list" data-id=${id}>
+                                <!-- <li class="card_box_nav_link name"> ${productName} </li>
+                    <li class="card_box_nav_link count"> ${count} </li>
+                    <li class="card_box_nav_link price"> ${priceForPrint} </li>  -->
+
+
+                            </div>
+
+                            <div class="card_box_nav_item">
+
+                            </div>
+                            <div class="card_box_nav_total">
+                                Итого:<span class="card_box_nav_total_price"> 0 </span>
+
+                            </div>
+
+
+                        </div>
+                    </li>
+
+
+
 
                 </ul>
-
-
             </nav>
-
-
-
         </div>
 
     </header>
@@ -110,17 +158,17 @@
             <h3 class="new_arivals_heading">NEW ARRIVALS</h3>
 
             <nav class="brad">
-                <p class="brad_roat">
+                <div class="brad_roat">
                     <a href="index.html" class="brad_link">
-                        <p>home / </p>
+                        <p class="brad_link">home/ </p>
                     </a>
                     <a href="#" class="brad_link">
-                        <p>man / </p>
+                        <p class="brad_link">man/ </p>
                     </a>
                     <a href="#" class="brad_link">
-                        <p>new aravals</p>
+                        <p class="brad_link">new aravals</p>
                     </a>
-                </p>
+                </div>
 
             </nav>
 
@@ -240,9 +288,7 @@
 
                     </div>
 
-                    <h3 class="item_header">
-                        ELLERY X M'O CAPSULE
-                    </h3>
+                    <h3 class="item_header">ELLERY X M'O CAPSULE 1</h3>
 
                     <div class="item_text">
                         Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
@@ -251,11 +297,11 @@
                         with Moda
                         Operandi.
                     </div>
-                    <div class="item_price">$52.00</div>
+                    <div class="item_price">$52.03</div>
 
                 </a>
 
-                <a href="card.html" class="add_link">
+                <a href="#" class="add_link">
                     <img src="img/add_pic.svg" alt="" class="img_add">
                     <p class="text_add_cart">Add to Cart</p>
                 </a>
@@ -268,9 +314,7 @@
 
                     </div>
 
-                    <h3 class="item_header">
-                        ELLERY X M'O CAPSULE
-                    </h3>
+                    <h3 class="item_header">ELLERY X M'O CAPSULE 3</h3>
 
                     <div class="item_text">
                         Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
@@ -279,11 +323,11 @@
                         with Moda
                         Operandi.
                     </div>
-                    <div class="item_price">$52.00</div>
+                    <div class="item_price">$42.00</div>
 
                 </a>
 
-                <a href="card.html" class="add_link">
+                <a href="#" class="add_link">
                     <img src="img/add_pic.svg" alt="" class="img_add">
                     <p class="text_add_cart">Add to Cart</p>
                 </a>
@@ -296,9 +340,7 @@
 
                     </div>
 
-                    <h3 class="item_header">
-                        ELLERY X M'O CAPSULE
-                    </h3>
+                    <h3 class="item_header">ELLERY CAPSULE</h3>
 
                     <div class="item_text">
                         Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
@@ -307,11 +349,11 @@
                         with Moda
                         Operandi.
                     </div>
-                    <div class="item_price">$52.00</div>
+                    <div class="item_price">$32.00</div>
 
                 </a>
 
-                <a href="card.html" class="add_link">
+                <a href="#" class="add_link">
                     <img src="img/add_pic.svg" alt="" class="img_add">
                     <p class="text_add_cart">Add to Cart</p>
                 </a>
@@ -324,9 +366,7 @@
 
                     </div>
 
-                    <h3 class="item_header">
-                        ELLERY X M'O CAPSULE
-                    </h3>
+                    <h3 class="item_header">CAPSULE</h3>
 
                     <div class="item_text">
                         Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
@@ -335,11 +375,11 @@
                         with Moda
                         Operandi.
                     </div>
-                    <div class="item_price">$52.00</div>
+                    <div class="item_price">$62.00</div>
 
                 </a>
 
-                <a href="card.html" class="add_link">
+                <a href="#" class="add_link">
                     <img src="img/add_pic.svg" alt="" class="img_add">
                     <p class="text_add_cart">Add to Cart</p>
                 </a>
@@ -352,9 +392,7 @@
 
                     </div>
 
-                    <h3 class="item_header">
-                        ELLERY X M'O CAPSULE
-                    </h3>
+                    <h3 class="item_header">ELLERY X M'O CAPSULE red</h3>
 
                     <div class="item_text">
                         Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
@@ -363,11 +401,11 @@
                         with Moda
                         Operandi.
                     </div>
-                    <div class="item_price">$52.00</div>
+                    <div class="item_price">$82.00</div>
 
                 </a>
 
-                <a href="card.html" class="add_link">
+                <a href="#" class="add_link">
                     <img src="img/add_pic.svg" alt="" class="img_add">
                     <p class="text_add_cart">Add to Cart</p>
                 </a>
@@ -380,9 +418,7 @@
 
                     </div>
 
-                    <h3 class="item_header">
-                        ELLERY X M'O CAPSULE
-                    </h3>
+                    <h3 class="item_header">T-Shit</h3>
 
                     <div class="item_text">
                         Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
@@ -391,11 +427,11 @@
                         with Moda
                         Operandi.
                     </div>
-                    <div class="item_price">$52.00</div>
+                    <div class="item_price">$44.00</div>
 
                 </a>
 
-                <a href="card.html" class="add_link">
+                <a href="#" class="add_link">
                     <img src="img/add_pic.svg" alt="" class="img_add">
                     <p class="text_add_cart">Add to Cart</p>
                 </a>
@@ -408,9 +444,7 @@
 
                     </div>
 
-                    <h3 class="item_header">
-                        ELLERY X M'O CAPSULE
-                    </h3>
+                    <h3 class="item_header">UNA CAMISA BLANCA</h3>
 
                     <div class="item_text">
                         Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
@@ -419,11 +453,11 @@
                         with Moda
                         Operandi.
                     </div>
-                    <div class="item_price">$52.00</div>
+                    <div class="item_price">$39.99</div>
 
                 </a>
 
-                <a href="card.html" class="add_link">
+                <a href="#" class="add_link">
                     <img src="img/add_pic.svg" alt="" class="img_add">
                     <p class="text_add_cart">Add to Cart</p>
                 </a>
@@ -436,9 +470,7 @@
 
                     </div>
 
-                    <h3 class="item_header">
-                        ELLERY X M'O CAPSULE
-                    </h3>
+                    <h3 class="item_header">UN VESTIDO ROJO</h3>
 
                     <div class="item_text">
                         Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
@@ -447,11 +479,11 @@
                         with Moda
                         Operandi.
                     </div>
-                    <div class="item_price">$52.00</div>
+                    <div class="item_price">$52.50</div>
 
                 </a>
 
-                <a href="card.html" class="add_link">
+                <a href="#" class="add_link">
                     <img src="img/add_pic.svg" alt="" class="img_add">
                     <p class="text_add_cart">Add to Cart</p>
                 </a>
@@ -464,9 +496,7 @@
 
                     </div>
 
-                    <h3 class="item_header">
-                        ELLERY X M'O CAPSULE
-                    </h3>
+                    <h3 class="item_header">LOS CALCETINES Y LAS CARBATAS</h3>
 
                     <div class="item_text">
                         Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery
@@ -475,11 +505,11 @@
                         with Moda
                         Operandi.
                     </div>
-                    <div class="item_price">$52.00</div>
+                    <div class="item_price">$52.99</div>
 
                 </a>
 
-                <a href="card.html" class="add_link">
+                <a href="#" class="add_link">
                     <img src="img/add_pic.svg" alt="" class="img_add">
                     <p class="text_add_cart">Add to Cart</p>
                 </a>
@@ -508,7 +538,7 @@
 
 
     <footer>
-        <section class="first_footer">
+        <div class="first_footer">
             <article class="footer_conteiner">
                 <a href="#" class="bread">
                     <img src="img/car.svg" alt="delevery" class="img_footer">
@@ -520,7 +550,7 @@
                 </a>
 
                 <a href="#" class="bread">
-                    <img src="img/discount%.svg" alt="discount" style="margin-top: -8px;" class="img_footer">
+                    <img src="img/discount.svg" alt="discount" style="margin-top: -8px;" class="img_footer">
                     <h3 class="footer_text">Sales & discounts</h3>
                     <p class="footer_item_text">
                         Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
@@ -542,7 +572,7 @@
 
 
 
-        </section>
+        </div>
 
         <div class="subscribe">
             <div class="subscribe_conteiner">
@@ -566,10 +596,11 @@
 
 
                     <form action="#">
-                        <input class="enter_text" type="email" placeholder="Enter Your Emaill"><button
-                            class="button_subscribe" type="">
+                        <input class="enter_text" type="email" placeholder="Enter Your Emaill">
+                        <button class="button_subscribe">
                             <span class="text_bottom">Subscribe </span>
                         </button>
+
                     </form>
 
 
@@ -606,6 +637,14 @@
 
     </footer>
 
+    <script src="card.js"></script>
+    <!-- <script src="proba.js"></script> -->
+
+
+
 </body>
+
+
+
 
 </html>
