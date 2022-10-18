@@ -52,3 +52,69 @@ el.closest('.item').setAttribute('data-price', document.querySelector('.item_pri
 cardLink.addEventListener('click', () => {
 cardBoxNavEl.classList.toggle('hidden');
 });
+
+const cardEL = document.querySelector('.card_box_nav')
+
+const renderProductInBasket = (itemId) => {
+    const cardRowEl = cardEL
+        .querySelector(`.title_list[data-id="${itemId}"]`); //card_box_nav_link_title_list
+    if (!cardRowEl) {
+        renderNewProductInBasket(itemId);
+        return;
+    }
+
+    console.log(document.querySelector('.title_list[data-id="${itemId}"]'))
+
+    const product = card[itemId];
+    cardRowEl.querySelector('.count').textContent = product.count;
+
+    cardRowEl
+        .querySelector('.productTotalRow')
+        .textContent = (product.price * product.count).toFixed(2);
+
+};
+
+
+
+для добавления второй кнопки
+parent.setAttribute('data-count', 1)
+
+        parent.querySelector('.add_link').remove(); //убираем кнопку
+
+        //добавить функции для появление второй кнопки
+        const getAddMoreButtom = () => {
+            return `
+            <a href="#" class="add_link add_more">
+                <p class="text_add_cart">Add to More</p>
+            </a>
+        `
+        };
+
+        const renderButtomAddMore = () => {
+            const rowHtml = parent
+                .querySelector('.add_more_buttom')
+                .insertAdjacentHTML('beforeEnd', getAddMoreButtom());
+            return rowHtml
+        }
+
+        renderButtomAddMore() // !!!!!itWork
+
+        parent.querySelector('.add_more').addEventListener(('click'), (e) => {
+
+            const self = e.currentTarget; //нажатие на определнную кнопку !!!!itWORK   
+            const parent = self.closest('.item'); //определяем родителя у кнопки item !!!!itWORK
+            let countItem = parseInt(parent.dataset.count)
+
+
+
+            const summFullcount = (countItem) => {
+                count += countItem;
+                return count
+            };
+
+            console.log(summFullcount(countItem))
+
+
+
+        })
+вторая кнопка закончилась
