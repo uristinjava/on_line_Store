@@ -9,6 +9,8 @@ const fullPriceValue = document.querySelector('.card_box_nav_total_price'); // �
 
 
 
+
+
 const fullPrice = document.querySelector('.card_box_nav_total'); //переменная которая хранит и текст итого и спан счетчика общей стоиомсти
 const itemElts = document.querySelectorAll('.item');//коллекция товаров
 const itemPrices = document.querySelectorAll('.item_price')//коллекция цен товара
@@ -20,6 +22,7 @@ let price = 0; //переменная в которую будут приход�
 
 const card = {}
 
+let count = 0;
 
 
 /**
@@ -65,10 +68,10 @@ const generateCardProduct = (id, productName, priceForPrint, count = 0) => {
 };
 
 //функция возвращает строку html в корзину при клике
-const renderHtml = (id, productName, priceForPrint) => {
+const renderHtml = (id, productName, priceForPrint, count) => {
     const rowHtml = document
         .querySelector('.card_box_nav_link_title_list')
-        .insertAdjacentHTML('beforeEnd', generateCardProduct(id, productName, priceForPrint));
+        .insertAdjacentHTML('beforeEnd', generateCardProduct(id, productName, priceForPrint, count));
     return rowHtml
 };
 
@@ -85,6 +88,8 @@ const summFullPrice = (currentPrice) => {
     return Math.round(price * 100) / 100
 };
 
+
+
 /**
  * 
  * @returns возвращает сумму всех цен в разметку 
@@ -96,6 +101,8 @@ const printSumm = () => {
     return document.querySelector('.card_box_nav_total_price')
         .textContent = `$${Math.round(price * 100) / 100}`
 };
+
+
 
 
 
@@ -123,9 +130,6 @@ productsBts.forEach(el => {
         //присваеваем item атрибут data-price соответствующий наименованию товара
         parent.setAttribute('data-price', priceForCalck);
 
-
-
-
         //сумма  !!!!itWORK
         summFullPrice(priceForCalck)
 
@@ -133,12 +137,8 @@ productsBts.forEach(el => {
         printSumm()
 
 
-        //функция добавляет новый товар в корзину
-        //addToCard(id)
-
-
         // отрисовываем строку html в корзине!!!!itWORK
-        renderHtml(id, productName, priceForPrint)
+        renderHtml(id, productName, priceForPrint, count)
 
         //вывести число товаров в счетчик !!!!itWORK
         printQuantity()
@@ -147,6 +147,8 @@ productsBts.forEach(el => {
 
     });
 });
+
+
 
 
 
