@@ -3,15 +3,16 @@
     margin: 0px;
     font-family: 'Lato', sans-serif;
     outline: none;
+}
 
+body {
+    overflow-anchor: none;
 }
 
 .header {
     background-color: black;
     display: flex;
     justify-content: center;
-
-
 }
 
 .conteiner_menu {
@@ -52,6 +53,104 @@
 /* эффект появления меню */
 .menu_link:hover .mega_menu_box {
     display: table;
+}
+
+/*блок корзины */
+.card_img {
+    position: relative;
+}
+
+/*счетчик*/
+.card_box_caunter {
+    min-width: 16px;
+    min-height: 16px;
+    background: #EF5B70;
+    color: white;
+    position: absolute;
+    top: -14px;
+    right: 37px;
+    border-radius: 13px;
+    text-align: center;
+    padding: 3px;
+}
+
+.hidden {
+    display: none;
+}
+
+.name {
+    max-width: 80px;
+    min-width: 79px;
+    padding: 5px;
+    text-align: center;
+}
+
+.card_box_nav {
+    position: absolute;
+    min-width: 550px;
+    border: 1px solid red;
+    top: 65px;
+    right: 0px;
+    padding: 0px 10px;
+    background-color: white;
+    border-radius: 8px;
+    z-index: 4;
+}
+
+
+.card_box_nav {
+    margin-bottom: 8px;
+    color: #222222;
+}
+
+.card_box_nav_title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    color: #222222;
+    padding: 20px 40px 20px 20px;
+    border-bottom: 2px solid gray;
+
+}
+
+
+.card_box_nav_link_title_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 160px;
+    overflow: auto;
+}
+
+
+.title_list {
+    display: block;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    color: #F16D7F;
+    text-align: center;
+    border-bottom: 2px solid grey;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+
+.card_box_nav_total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0px 20px 20px 20px;
+}
+
+/* выпадающая корзина закончилась */
+
+.brad_roat {
+    display: flex;
+}
+
+.brad_link {
+    color: #F16D7F;
 }
 
 .mega_menu_heading {
@@ -123,8 +222,6 @@ span {
     line-height: 17px;
     line-height: 100%;
     margin-top: 20px;
-
-
 }
 
 /* эффект окрашивания ссылки товаров */
@@ -202,22 +299,18 @@ span {
     width: 325px;
     background-color: #FFFFFF;
     padding-bottom: 24px;
-
-
 }
 
 .filter {
     position: absolute;
     left: 0px;
     z-index: 1;
-
 }
 
 .filter_text {
     display: block;
     margin-bottom: 16px;
     padding-left: 16px;
-
 }
 
 .category_text {
@@ -226,17 +319,14 @@ span {
     border-bottom: 1px solid #EBEBEB;
     margin: 32px 15.5px 18.5px 16px;
     padding-left: 11px;
-
 }
 
 .category_text:hover {
     color: #F16D7F;
-
 }
 
 .filter_text:hover {
     color: #F16D7F;
-
 }
 
 .link_category_text {
@@ -276,7 +366,6 @@ span {
     box-shadow: 5px 5px 5px 5px color #E5E5E5;
     z-index: 1;
     padding-left: 9.5px;
-
 }
 
 .choose_blok_text {
@@ -298,7 +387,6 @@ span {
 
 .choose_blok_text:hover {
     color: #F16D7F;
-
 }
 
 
@@ -325,7 +413,6 @@ span {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
 }
 
 .item {
@@ -340,12 +427,11 @@ span {
     display: block;
     text-decoration: none;
     color: #5D5D5D;
-
-
 }
 
 .text_add_cart {
     padding: 8px;
+    display: block;
 }
 
 .add_link {
@@ -359,8 +445,13 @@ span {
     top: 188px;
     left: 111px;
     padding: 10px 15px 10px 15px;
-
 }
+
+.add_more {
+    display: none;
+}
+
+
 
 .item:hover .add_link {
     display: flex;
@@ -378,9 +469,7 @@ span {
 
 
 
-.text_add_cart {
-    display: block;
-}
+
 
 .item_header {
     display: block;

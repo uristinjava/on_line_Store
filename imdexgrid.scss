@@ -1,0 +1,307 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    outline: none;
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.conteiner_menu {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu {
+    display: flex;
+    margin: 0px;
+    padding: 18px 0px 0px 0px;
+    align-items: center;
+}
+
+.menu_link {
+    display: block;
+    padding-right: 41px;
+    position: relative;
+    padding-bottom: 25px;
+}
+
+
+.mega_menu_box {
+    position: absolute;
+    background-color: white;
+    top: 49px;
+    left: -2px;
+    width: 232px;
+    padding-bottom: 50px;
+    min-height: 764px;
+    display: none;
+}
+
+
+/* эффект появления меню */
+.menu_link:hover .mega_menu_box {
+    display: table;
+}
+
+.mega_menu_heading {
+    color: #000000;
+    text-transform: uppercase;
+    margin-top: 37px;
+    margin-left: 34px;
+    margin-bottom: 24px;
+}
+
+
+.link_mega_menu {
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #6F6E6E;
+    margin-top: 11px;
+    margin-left: 54.5px;
+    font-size: 14px;
+    line-height: 17px;
+    line-height: 100%;
+    margin-bottom: 12px;
+
+
+}
+
+.mega_menu_title {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 34px;
+    margin-bottom: 12px;
+    color: #F16D7F;
+    font-size: 14px;
+    line-height: 17px;
+    line-height: 100%;
+    margin-top: 20px;
+
+
+}
+
+/* эффект окрашивания ссылки товаров */
+
+.link_mega_menu:hover {
+    color: #F16D7F;
+
+}
+
+// конец хедара
+
+// начало футера
+
+.footer {
+    flex: 0 0 auto;
+}
+
+.first_footer {
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_conteiner {
+    height: 341px;
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bread {
+    text-decoration: none;
+    width: 360px;
+    margin-top: 103px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img_footer {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer_text {
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-top: 28px;
+    display: block;
+}
+
+.footer_item_text {
+    color: #FFFFFF;
+    font-weight: 300;
+    margin-top: 16px;
+    display: block;
+    font-size: 13px;
+    line-height: 16.77px;
+    text-align: center;
+}
+
+.subscribe {
+    background-image: url(img/photo-subscribe.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe_conteiner {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    line-height: 24px;
+
+}
+
+.img_review {
+    margin-top: 87px;
+    margin-bottom: 50px;
+}
+
+.review_text {
+    display: block;
+    width: 360px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 557px;
+}
+
+.text_form {
+    display: block;
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.text_subscribe {
+    display: block;
+    width: 557px;
+    margin-bottom: 16px;
+    width: 557px;
+}
+
+.text_sub {
+    text-align: center;
+}
+
+.enter_text {
+    height: 43px;
+    width: 234px;
+    border-style: none;
+    background-color: #E1E1E1;
+    border-radius: 30px 0px 0px 30px;
+    padding-left: 22px;
+    padding-right: 22px;
+
+}
+
+.button_subscribe {
+    height: 43px;
+    border-style: none;
+    background-color: #FFFFFF;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.text_bottom {
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #F16D7F;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.button_subscribe:hover {
+    background-color: #F16D7F;
+}
+
+.text_bottom:hover {
+    color: #FFFFFF;
+}
+
+.second_footer {
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    height: 79px;
+}
+
+.second_footer_conteiner {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    color: #FFFFFF;
+    align-items: center;
+
+}
+
+.media {
+    display: flex;
+}
+
+.icone {
+    display: block;
+    margin-right: 8px;
+    color: #000000;
+    background-color: #FFFFFF;
+    height: 32px;
+    width: 32px;
+}
+
+.icone:hover {
+    background-color: #F16D7F;
+    color: #FFFFFF;
+
+}
+
+// конец футера
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex: 0 0 auto;
+}
